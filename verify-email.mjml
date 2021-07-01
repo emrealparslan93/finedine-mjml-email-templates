@@ -32,10 +32,7 @@
         <mj-text align="center" color="#8F98B1" font-family="Nunito Sans" font-size="12px" padding="8px">You received this email because you are registered on finedinemenu.com.</mj-text>
       </mj-column>
       <mj-column vertical-align="middle">
-        <mj-text align="right" color="#8F98B1" font-family="Nunito Sans" font-size="12px">Visit <a class="link-gray" href="https://www.finedinemenu.com">finedinemenu.com</a></mj-text>
-      </mj-column>
-      <mj-column vertical-align="middle">
-        <mj-text align="left" color="#8F98B1" font-family="Nunito Sans" font-size="12px"><a class="link-gray" href="https://panel.finedinemenu.com/unsubscribe">Unsubcscribe</a></mj-text>
+        <mj-text align="center" color="#8F98B1" font-family="Nunito Sans" font-size="12px"><a class="link-gray" href="https://panel.finedinemenu.com/unsubscribe">Unsubcscribe</a></mj-text>
       </mj-column>
     </mj-section>
     <mj-section padding-top="0">

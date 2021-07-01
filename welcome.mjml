@@ -42,7 +42,7 @@
         <mj-text align="left" color="#8F98B1" font-family="Nunito Sans" font-size="12px"><a class="link-gray" href="https://panel.finedinemenu.com/unsubscribe">Unsubcscribe</a></mj-text>
       </mj-column>
     </mj-section>
-    <mj-section>
+    <mj-section padding-top="0">
       <mj-column width="50%">
         <mj-table>
           <tr style="list-style: none;line-height:1">

@@ -26,7 +26,7 @@
       </mj-column>
       <mj-column width="10%" vertical-align="top"></mj-column>
     </mj-section>
-    <mj-section padding-top="24px">
+    <mj-section padding-top="24px" padding-bottom="0">
       <mj-column width="100%" vertical-align="middle">
         <mj-text align="center" color="#8F98B1" font-family="Nunito Sans" font-size="12px" padding="8px">© Bambulabs, Inc. All rights reserved.</mj-text>
         <mj-text align="center" color="#8F98B1" font-family="Nunito Sans" font-size="12px" padding="8px">You received this email because you are registered on finedinemenu.com.</mj-text>

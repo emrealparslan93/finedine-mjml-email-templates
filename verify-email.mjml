@@ -16,9 +16,12 @@
           <p class="text-medium">Hi {name}, </p>
         </mj-text>
         <mj-text align="justify" padding-left="25px" padding-right="25px" padding-top="0" padding-bottom="0">
-          <p class="text-medium">Please click the button below to verify your email.</p>
+          <p class="text-medium">Please click this button to verify your email address:</p>
         </mj-text>
         <mj-button background-color="#8338EC" color="#FFFFFF" font-size="16px" align="center" vertical-align="middle" border="none" padding="15px 30px" border-radius="8px" href="https://mjml.io" font-family="Nunito Sans">Verify your email</mj-button>
+        <mj-text align="justify" padding-left="25px" padding-right="25px" padding-top="0" padding-bottom="0">
+          <p class="text-medium">If you have any questions or feedback, please <a class="link-secondary" href="mailto:support@finedinemenu.com">contact support team</a>.</p>
+        </mj-text>
         <mj-text align="justify" padding-left="25px" padding-right="25px" padding-top="0" padding-bottom="0">
           <p class="text-medium" style="line-height: 10px;">Thanks,</p>
           <p class="text-medium" style="line-height: 10px;">FineDine Team</p>

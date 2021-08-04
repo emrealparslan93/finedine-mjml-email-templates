@@ -1,0 +1,82 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Nunito Sans" href="https://fonts.googleapis.com/css?family=Nunito%20Sans" />
+    <mj-style inline="inline"> body {padding: 10px; max-width: 500px; min-width: 500px; margin: auto; }</mj-style>
+    <mj-attributes>
+      <mj-all font-family="Nunito Sans" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body>
+    <mj-section>
+      <mj-column width="25%">
+        <mj-image src="https://finedine.imgix.net/images/48540c0e-a110-4e9c-88ab-e181c425962f.png" href="https://www.finedinemenu.com" alt="FineDine logo" align="left" border="none" width="130px" padding-left="0px" padding-right="0px" padding-bottom="10px" padding-top="0"></mj-image>
+      </mj-column>
+      <mj-column width="75%">
+        <mj-text align="right" color="#7e8691" line-height="16px" font-size="12px">
+          <span class="bold uppercase">Finedine - BAMBULABS, Inc.</span>
+          <br /> 2035 Sunset Lake Road <br /> Suite B-2 <br /> Newark, Delaware <br /> 19702 <br />
+          <br />
+          <span class="bold">T</span> +18885397540 <br />
+          <span class="bold">E</span> info@finedinemenu.com <br />
+          <span class="bold">W</span> www.finedinemenu.com </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text color="#7e8691" font-weight="500" font-size="12px">Invoice</mj-text>
+        <mj-text color="#39424a" font-weight="700" font-size="14px">#123123124123123123</mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text color="#7e8691" font-weight="500" font-size="12px">Customer</mj-text>
+        <mj-text color="#39424a" font-weight="700" font-size="14px">Emre Alparslan</mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text color="#7e8691" font-weight="500" font-size="12px" align="right">Date</mj-text>
+        <mj-text color="#39424a" font-weight="700" font-size="14px" align="right">17/07/2021</mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text color="#7e8691" font-weight="500" font-size="12px">Address</mj-text>
+        <mj-text color="#39424a" font-weight="700" font-size="14px" line-height="18px">Caferağa Mah. Sarraf Ali Sk. No:37 D:7 Kadıköy / ISTANBUL</mj-text>
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text color="#7e8691" font-weight="500" font-size="12px" align="right">Tax Number</mj-text>
+        <mj-text color="#39424a" font-weight="700" font-size="14px" align="right">17/07/2021</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-table>
+          <tr style="border-bottom:1px solid #7e869130;text-align:left;color: #7e8691;line-height: 40px;font-weight:700;">
+            <th style="padding: 0 15px 0 0;">Description</th>
+            <th style="padding: 0 15px;">x</th>
+            <th style="padding: 0 15px;">Disc</th>
+            <th style="padding: 0 15px;">Price</th>
+            <th style="padding: 0 0 0 15px;">Total</th>
+          </tr>
+          <tr style="color:#39424a;line-height:30px;font-weight:700;">
+            <td style="padding: 0 15px 0 0; max-width: 120px;">Caferağa Mah. Sarraf Ali Sk. No:37 D:7 Kadıköy / ISTANBUL</td>
+            <td style="padding: 0 15px; max-width: 25px;">12</td>
+            <td style="padding: 0 15px; max-width: 25px;">%99</td>
+            <td style="padding: 0 15px; max-width: 80px;">₺12235.12</td>
+            <td style="padding: 0 0 0 15px;">₺12235.12</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+      <mj-section>
+      <mj-column width="33%">
+        <mj-text color="#7e8691" font-weight="500" font-size="12px">Subtotal</mj-text>
+        <mj-text color="#39424a" font-weight="800" font-size="14px">₺12235.12</mj-text>
+      </mj-column>
+      <mj-column width="33%">
+        <mj-text color="#7e8691" font-weight="500" font-size="12px" align="right">Tax (0%)</mj-text>
+        <mj-text color="#39424a" font-weight="800" font-size="14px" align="right">₺0.88</mj-text>
+      </mj-column>
+              <mj-column width="33%">
+        <mj-text color="#7e8691" font-weight="500" font-size="12px" align="right">Total</mj-text>
+        <mj-text color="#39424a" font-weight="800" font-size="14px" align="right">₺12236.00</mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

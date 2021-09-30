@@ -1,0 +1,66 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Nunito Sans" href="https://fonts.googleapis.com/css?family=Nunito%20Sans" />
+    <mj-style inline="inline"> body {padding: 10px;} .link-secondary { color: #38338E; text-decoration: none; } .link-gray { color: #8F98B1; text-decoration: none; } .text-medium {font-family: Nunito Sans; font-size: 12px; color: #262626; line-height: 22px; padding: 0px !important;}</mj-style>
+  </mj-head>
+  <mj-body background-color="#E5E5E5">
+    <mj-section padding-bottom="10px" padding-top="30px">
+      <mj-column vertical-align="middle">
+        <mj-image src="https://finedine.imgix.net/images/48540c0e-a110-4e9c-88ab-e181c425962f.png" href="https://www.finedinemenu.com" alt="FineDine logo" align="left" border="none" width="130px" padding-left="0px" padding-right="0px" padding-bottom="10px" padding-top="0"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding-bottom="40px" padding-top="40px" border-radius="10px">
+      <mj-column width="10%" vertical-align="top"></mj-column>
+      <mj-column width="80%" vertical-align="top">
+        <mj-text align="left" padding-left="25px" padding-right="25px" padding-top="0" padding-bottom="0">
+          <p class="text-medium">Hi {{name}}, </p>
+        </mj-text>
+        <mj-text align="justify" padding-left="25px" padding-right="25px" padding-top="0" padding-bottom="0">
+          <p class="text-medium">Your export file is ready!</p>
+          <p class="text-medium">Please click this button to download file:</p>
+        </mj-text>
+        <mj-button background-color="#8338EC" color="#FFFFFF" font-size="16px" align="center" vertical-align="middle" border="none" padding="15px 30px" border-radius="8px" href="https://mjml.io" font-family="Nunito Sans">Download File</mj-button>
+        <mj-text align="justify" padding-left="25px" padding-right="25px" padding-top="0" padding-bottom="0">
+          <p class="text-medium">If you have any questions or feedback, please <a class="link-secondary" href="mailto:support@finedinemenu.com">contact support team</a>.</p>
+        </mj-text>
+        <mj-text align="justify" padding-left="25px" padding-right="25px" padding-top="0" padding-bottom="0">
+          <p class="text-medium" style="line-height: 10px;">Thanks,</p>
+          <p class="text-medium" style="line-height: 10px;">FineDine Team</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="10%" vertical-align="top"></mj-column>
+    </mj-section>
+    <mj-section padding-top="24px" padding-bottom="0">
+      <mj-column width="100%" vertical-align="middle">
+        <mj-text align="center" color="#8F98B1" font-family="Nunito Sans" font-size="12px" padding="8px">© Bambulabs, Inc. All rights reserved.</mj-text>
+        <mj-text align="center" color="#8F98B1" font-family="Nunito Sans" font-size="12px" padding="8px">You received this email because you are registered on finedinemenu.com.</mj-text>
+      </mj-column>
+      <mj-column vertical-align="middle">
+        <mj-text align="center" color="#8F98B1" font-family="Nunito Sans" font-size="12px"><a class="link-gray" href="https://panel.finedinemenu.com/unsubscribe">Unsubcscribe</a></mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="0">
+      <mj-column width="50%">
+        <mj-table>
+          <tr style="list-style: none;line-height:1">
+            <td> <a href="https://facebook.com/finedinemenu">
+                <img width="25" src="https://finedine.imgix.net/images/f3405d60-9bce-4fca-a860-bb8fd96083c3.png" />
+              </a> </td>
+            <td> <a href="https://instagram.com/finedinemenu">
+                <img width="25" src="https://finedine.imgix.net/images/8bcca162-9e40-4c7b-88df-120e0cd0759e.png" />
+              </a> </td>
+            <td> <a href="https://linkedin.com/company/finedine-digital-menu">
+                <img width="25" src="https://finedine.imgix.net/images/b2367e1c-e6fd-473c-bfbe-c6f5e9e49e84.png" />
+              </a> </td>
+            <td> <a href="https://twitter.com/finedinemenu">
+                <img width="25" src="https://finedine.imgix.net/images/502c733b-498a-4ad2-ba45-e0681966d2f5.png" />
+              </a> </td>
+            <td> <a href="https://youtube.com/channel/UCU2ECihl9McQuhUsZ0MzleQ">
+                <img width="25" src="https://finedine.imgix.net/images/25494732-3ec6-44fd-be48-934d7080935d.png" />
+              </a> </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>

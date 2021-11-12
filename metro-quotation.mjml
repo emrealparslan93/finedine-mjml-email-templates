@@ -1,0 +1,96 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Nunito Sans" href="https://fonts.googleapis.com/css?family=Nunito%20Sans" />
+    <mj-style inline="inline"> body {padding: 10px;} .link-secondary { color: #38338E; text-decoration: none; } .link-gray { color: #8F98B1; text-decoration: none; } .text-medium {font-family: Nunito Sans; font-size: 12px; color: #262626; line-height: 22px; padding: 0px !important;}</mj-style>
+  </mj-head>
+  <mj-body background-color="#E5E5E5">
+    <mj-section padding-bottom="10px" padding-top="30px">
+      <mj-column vertical-align="middle">
+        <mj-image src="https://finedine.imgix.net/images/48540c0e-a110-4e9c-88ab-e181c425962f.png" href="https://www.finedinemenu.com" alt="FineDine logo" align="left" border="none" width="130px" padding-left="0px" padding-right="0px" padding-bottom="10px" padding-top="0"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding-bottom="40px" padding-top="40px" border-radius="10px">
+      <mj-column width="10%" vertical-align="top"></mj-column>
+      <mj-column width="80%" vertical-align="top">
+        <mj-text align="left" padding-left="25px" padding-right="25px" padding-top="0" padding-bottom="0">
+          <p class="text-medium">Sayın {{name}}, </p>
+        </mj-text>
+        <mj-text align="justify" padding-left="25px" padding-right="25px" padding-top="0" padding-bottom="0">
+          <p class="text-medium">Metro işbirliği ile <b>{{shop}}</b> için özel oluşturulan teklif aşağıdaki gibidir.</p>
+        </mj-text>
+        <mj-table>
+          <tr style="border-bottom:1px solid #ecedee;text-align:left;padding:15px 0;">
+            <th style="padding: 0 15px 0 0;">Ürün</th>
+            <th style="padding: 0 15px;">Plan</th>
+            <th style="padding: 0 0 0 15px;">Fiyat</th>
+          </tr>
+          <tr>
+            <td style="padding: 0 15px 0 0;">QR Menü</td>
+            <td style="padding: 0 15px;">BASIC - YILLIK</td>
+            <td style="padding: 0 0 0 15px;">₺948.00</td>
+          </tr>
+        </mj-table>
+        <mj-table>
+          <tr>
+            <td width="50%" style="text-align: right; padding-right: 10px;">Ara Toplam:</td>
+            <td width="50%" style="padding-left: 10px;">₺948.00</td>
+          </tr>
+          <tr>
+            <td width="50%" style="text-align: right; padding-right: 10px;"><b>İndirim (%25)</b>:</td>
+            <td width="50%" style="padding-left: 10px;"><b>- ₺237.00</b></td>
+          </tr>
+          <tr>
+            <td width="50%" style="text-align: right; padding-right: 10px;">KDV (%18):</td>
+            <td width="50%" style="padding-left: 10px;">₺127.98</td>
+          </tr>
+          <tr>
+            <td width="50%" style="text-align: right; padding-right: 10px;"><b>TOPLAM</b>:</td>
+            <td width="50%" style="padding-left: 10px;"><b>₺838.98</b></td>
+          </tr>
+        </mj-table>
+        <mj-button background-color="#8338EC" color="#FFFFFF" font-size="16px" align="center" vertical-align="middle" border="none" padding="15px 30px" border-radius="8px" href="https://mjml.io" font-family="Nunito Sans">ÖDEME YAP</mj-button>
+        <mj-text align="justify" padding-left="25px" padding-right="25px" padding-top="0" padding-bottom="0">
+          <p class="text-medium">Hesabınız ödeme tarihinden itibaren 1 yıl geçerli olacak şekilde otomatik olarak aktif olacaktır.</p>
+          <p class="text-medium">Kontrol paneli giriş bilgileriniz ödeme sonucunda tarafınıza iletilecektir.</p>
+          <p class="text-medium"> Kişisel verileriniz, <a href="https://www.finedinemenu.com/metro-terms?term=clarification" class='link-secondary'>Aydınlatma Metni</a> kapsamında işlenmektedir.</br>Ödeme yaparak, <a href="https://www.finedinemenu.com/metro-terms?term=consent" class='link-secondary'>Rıza Metni</a>ni kabul etmiş olursunuz</p>
+        </mj-text>
+        <mj-text align="justify" padding-left="25px" padding-right="25px" padding-top="0" padding-bottom="0">
+          <p class="text-medium">Sorularınız ve geri bildirimleriniz için, lütfen <a class='link-secondary' href='mailto:support@finedinemenu.com'>destek ekibiyle iletişime geçin</a>.</p>
+        </mj-text>
+        <mj-text align="justify" padding-left="25px" padding-right="25px" padding-top="0" padding-bottom="0">
+          <p class="text-medium" style="line-height: 10px;">Teşekkürler,</p>
+          <p class="text-medium" style="line-height: 10px;">FineDine Ekibi</p>
+        </mj-text>
+      </mj-column>
+      <mj-column width="10%" vertical-align="top"></mj-column>
+    </mj-section>
+    <mj-section padding-top="24px" padding-bottom="0">
+      <mj-column width="100%" vertical-align="middle">
+        <mj-text align="center" color="#8F98B1" font-family="Nunito Sans" font-size="12px" padding="8px">© FineDine Menu. Tüm hakları saklıdır.</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="0">
+      <mj-column width="50%">
+        <mj-table>
+          <tr style="list-style: none;line-height:1">
+            <td> <a href="https://facebook.com/finedinemenu">
+                <img width="25" src="https://finedine.imgix.net/images/f3405d60-9bce-4fca-a860-bb8fd96083c3.png" />
+              </a> </td>
+            <td> <a href="https://instagram.com/finedinemenu">
+                <img width="25" src="https://finedine.imgix.net/images/8bcca162-9e40-4c7b-88df-120e0cd0759e.png" />
+              </a> </td>
+            <td> <a href="https://linkedin.com/company/finedine-digital-menu">
+                <img width="25" src="https://finedine.imgix.net/images/b2367e1c-e6fd-473c-bfbe-c6f5e9e49e84.png" />
+              </a> </td>
+            <td> <a href="https://twitter.com/finedinemenu">
+                <img width="25" src="https://finedine.imgix.net/images/502c733b-498a-4ad2-ba45-e0681966d2f5.png" />
+              </a> </td>
+            <td> <a href="https://youtube.com/channel/UCU2ECihl9McQuhUsZ0MzleQ">
+                <img width="25" src="https://finedine.imgix.net/images/25494732-3ec6-44fd-be48-934d7080935d.png" />
+              </a> </td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
